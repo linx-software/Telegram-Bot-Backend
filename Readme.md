@@ -26,7 +26,7 @@ A diagram of how Linx, the Telegram API and a Messenger app will interact
 1. Open the Linx Designer and open the TelegramBot.solution file in the repo folder
 1. Open the solution Settings by clicking the Settings button in the Linx Designer top toolbar
 1. Locate the TelegramToken setting and paste the token you received from Telegram in the value field
-1. Check the email you received when signing up to the Linx Server Trial. Here you can find the name in the server URL (for example, in this url \\https://scqcpc33.linx.twenty57.net the server name is ‘scqcp33’). In the value field of the APIBaseUri setting, replace the xxx (\https://xxx.api.linx.twenty57.net/) with the name of your server. 
+1. Check the email you received when signing up to the Linx Server Trial. Here you can find the name in the server URL (for example, in this url https\\://scqcpc33.linx.twenty57.net the server name is ‘scqcp33’). In the value field of the APIBaseUri setting, replace the xxx (https\\://xxx.api.linx.twenty57.net/) with the name of your server. 
 1. Register the Webhook by running the SetWebhook function in the Linx Designer. 
    1. Open the Telegram and WebHookUtils folders in the Linx solution
    2. Right-click on the SetWebhook function and select ‘Debug’
