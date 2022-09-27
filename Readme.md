@@ -9,10 +9,10 @@ A diagram of how Linx, the Telegram API and a Messenger app will interact
 ![](Diagram.png "Architecture Diagram")
 
 ## Prerequisites
-1. Download and install the Linx Designer https://linx.software/download-linx/ 
-1. Pull the "Linx 6 Solution" folder from this repo
-1. Sign up for a free Linx Trial Server https://linx.software/pricing/
-1. Install the Telegram Messenger on your phone ([iPhone](https://apps.apple.com/us/app/telegram-messenger/id686449807) or [Android](https://play.google.com/store/apps/details?id=org.telegram.messenger))
+1. Download and install the **Linx Designer https://linx.software/download-linx/ **
+1. Pull the **Linx 6 Solution** folder from this repo
+1. Sign up for a **free Linx Trial Server** https://linx.software/pricing/
+1. Install the **Telegram Messenger** on your phone ([iPhone](https://apps.apple.com/us/app/telegram-messenger/id686449807) or [Android](https://play.google.com/store/apps/details?id=org.telegram.messenger))
 
 ## Bot Registration
 1. Go to the @Botfather channel in your Telegram Messenger app (https://telegram.me/BotFather)
@@ -37,7 +37,7 @@ A diagram of how Linx, the Telegram API and a Messenger app will interact
    3. **Log into** your server using the credentials from your trial server email
    4. Click on the **TelegramBot solution**
    5. Select the **Settings** menu item in the left-hand menu and change the value for APIBaseUrl to: **https://+:8080/**
-   6. Select the **Services** menu item in the left-hand menu and switch on the service in the next screen
+   6. Select the **Services** menu item in the left-hand menu and **switch on the service**
 
 You are done setting up your bot in Linx. 
 
