@@ -6,13 +6,13 @@ The backend for a simple Telegram Bot that generates random strings of any lengt
 ## Diagram
 A diagram of how Linx, the Telegram API and a Messenger app will interact
 
-![Diagram of Linx, the Telegram API and a Messenger app](Diagram.png "Architecture Diagram")
+![](Diagram.png "Architecture Diagram")
 
 ## Prerequisites
 1. Download and install the Linx Designer https://linx.software/download-linx/ 
 1. Pull the "Linx 6 Solution" folder from this repo
 1. Sign up for a free Linx Trial Server https://linx.software/pricing/
-1. Install the Telegram Messenger on your phone (iPhone or Android)
+1. Install the Telegram Messenger on your phone ([iPhone](https://apps.apple.com/us/app/telegram-messenger/id686449807) or [Android]()https://play.google.com/store/apps/details?id=org.telegram.messenger)
 
 ## Bot Registration
 1. Go to the @Botfather channel in your Telegram Messenger app (https://telegram.me/BotFather)
