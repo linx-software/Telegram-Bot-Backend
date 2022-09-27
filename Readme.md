@@ -3,7 +3,6 @@
 ## Description
 The backend for a simple Telegram Bot that generates random strings of any length
 
-The RandomString bot will work like this
 ![Diagram of Linx, the Telegram API and a Messenger app](Diagram.png "Architecture Diagram")
 
 ## Prerequisites
