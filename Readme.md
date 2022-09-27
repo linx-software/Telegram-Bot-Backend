@@ -3,6 +3,9 @@
 ## Description
 The backend for a simple Telegram Bot that generates random strings of any length
 
+## Diagram
+A diagram of how Linx, the Telegram API and a Messenger app will interact
+
 ![Diagram of Linx, the Telegram API and a Messenger app](Diagram.png "Architecture Diagram")
 
 ## Prerequisites
