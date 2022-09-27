@@ -1,0 +1,21 @@
+{
+  "Id": "4mNg",
+  "Name": "MessageOutbound",
+  "Properties": [
+    {
+      "Id": "KZX6",
+      "Name": "chat_id",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "Ffk4",
+      "Name": "text",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "7kKg",
+      "Name": "parse_mode",
+      "Type": "Compiled:String"
+    }
+  ]
+}

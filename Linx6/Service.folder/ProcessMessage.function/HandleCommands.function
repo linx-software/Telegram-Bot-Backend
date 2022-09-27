@@ -1,0 +1,91 @@
+{
+  "ExecutionPaths": [
+    {
+      "PluginId": "TEpq",
+      "Name": "start",
+      "Result": null,
+      "Order": 0,
+      "IterationHint": "ZeroOrOnce"
+    },
+    {
+      "PluginId": "CkrB",
+      "Name": "help",
+      "Result": null,
+      "Order": 1,
+      "IterationHint": "ZeroOrOnce"
+    },
+    {
+      "PluginId": "9Z6f",
+      "Name": "random",
+      "Result": null,
+      "Order": 2,
+      "IterationHint": "ZeroOrOnce"
+    }
+  ],
+  "Properties": [
+    {
+      "Id": "Conditions",
+      "Type": "Compiled:System.Collections.Generic.List`1[[Twenty57.Linx.Plugins.Standard.IfElse.Condition, Twenty57.Linx.Plugins.Standard, Version=1.0.2.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "ValueUsage": "DesignTime",
+      "Value": [
+        {
+          "ExecutionPathId": "TEpq",
+          "Name": "start"
+        },
+        {
+          "ExecutionPathId": "CkrB",
+          "Name": "help"
+        },
+        {
+          "ExecutionPathId": "9Z6f",
+          "Name": "random"
+        }
+      ]
+    },
+    {
+      "Id": "Expression_0",
+      "Type": "Compiled:Boolean",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "IncomingMessage.message.text != $.System.Null && IncomingMessage.message.text.ToLower() == \"/start\"",
+        "CompiledExpression": "={2}!={1}&&{0}.ToLower()==\"/start\"",
+        "Type": "Compiled:Boolean"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    },
+    {
+      "Id": "Expression_1",
+      "Type": "Compiled:Boolean",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "IncomingMessage.message.text != $.System.Null && IncomingMessage.message.text.ToLower() == \"/help\"",
+        "CompiledExpression": "={2}!={1}&&{0}.ToLower()==\"/help\"",
+        "Type": "Compiled:Boolean"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    },
+    {
+      "Id": "Expression_2",
+      "Type": "Compiled:Boolean",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "IncomingMessage.message.text != $.System.Null && IncomingMessage.message.text.ToLower().IndexOf(\"/random\") == 0",
+        "CompiledExpression": "={2}!={1}&&{0}.ToLower().IndexOf(\"/random\")==0",
+        "Type": "Compiled:Boolean"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    },
+    {
+      "Id": "Show else",
+      "Type": "Compiled:Boolean",
+      "ValueUsage": "DesignTime",
+      "Value": false
+    },
+    {
+      "Id": "Stop when true",
+      "Type": "Compiled:Boolean",
+      "ValueUsage": "DesignTime",
+      "Value": true
+    }
+  ]
+}

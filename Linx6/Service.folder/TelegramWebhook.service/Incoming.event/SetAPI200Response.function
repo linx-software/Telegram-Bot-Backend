@@ -1,0 +1,22 @@
+{
+  "Properties": [
+    {
+      "Id": "Source",
+      "Type": "Generated:SHYf",
+      "ValueUsage": "RuntimeRead",
+      "Value": "{\"ResponseXXX\":\"200\"}",
+      "ValueType": "String"
+    },
+    {
+      "Id": "Target",
+      "Type": "Generated:SHYf",
+      "ValueUsage": "RuntimeWrite",
+      "Value": {
+        "Expression": "$.Result",
+        "CompiledExpression": "={0}",
+        "Type": "Generated:SHYf"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    }
+  ]
+}

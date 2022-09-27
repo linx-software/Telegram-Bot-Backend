@@ -1,0 +1,11 @@
+{
+  "Properties": [
+    {
+      "Id": "Value",
+      "Type": "Compiled:String",
+      "ValueUsage": "RuntimeRead",
+      "Value": "\r\n<strong>/start</strong> - to get the welcome message\r\n<strong>/help</strong> - to get the list of commands\r\n<strong>/random</strong> - to get a random string of 8 characters\r\n<strong>/random20</strong> - replace the 20 with any number to set a custom length"
+    }
+  ],
+  "Result": "Compiled:String"
+}

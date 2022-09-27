@@ -1,0 +1,96 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "version": "1",
+    "title": "TelegramBot",
+    "description": ""
+  },
+  "paths": {
+    "/": {
+      "post": {
+        "operationId": "Incoming",
+        "description": "",
+        "parameters": [
+          {
+            "in": "query",
+            "name": "token",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/IncomingMessage"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "securitySchemes": {},
+    "schemas": {
+      "IncomingMessage_message_type": {
+        "properties": {
+          "first_name": {
+            "type": "string"
+          },
+          "id": {
+            "type": "integer"
+          },
+          "last_name": {
+            "type": "string"
+          },
+          "username": {
+            "type": "string"
+          }
+        }
+      },
+      "IncomingMessage_message": {
+        "properties": {
+          "date": {
+            "type": "integer"
+          },
+          "from": {
+            "$ref": "#/components/schemas/IncomingMessage_message_type"
+          },
+          "message_id": {
+            "type": "integer"
+          },
+          "text": {
+            "type": "string"
+          },
+          "chat": {
+            "$ref": "#/components/schemas/IncomingMessage_message_type"
+          }
+        }
+      },
+      "IncomingMessage": {
+        "properties": {
+          "update_id": {
+            "type": "integer"
+          },
+          "message": {
+            "$ref": "#/components/schemas/IncomingMessage_message"
+          }
+        }
+      }
+    }
+  }
+}

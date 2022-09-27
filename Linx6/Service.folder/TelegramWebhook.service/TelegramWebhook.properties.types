@@ -1,0 +1,112 @@
+[
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "0qHw",
+      "Properties": [
+        {
+          "Id": "update_id",
+          "Name": "update_id",
+          "Type": "Compiled:Int64",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "message",
+          "Name": "message",
+          "Type": "Generated:zZjG",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "zZjG",
+      "Properties": [
+        {
+          "Id": "chat",
+          "Name": "chat",
+          "Type": "Generated:Rs2S",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "date",
+          "Name": "date",
+          "Type": "Compiled:Int64",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "from",
+          "Name": "from",
+          "Type": "Generated:Rs2S",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "message_id",
+          "Name": "message_id",
+          "Type": "Compiled:Int64",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "text",
+          "Name": "text",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "Rs2S",
+      "Properties": [
+        {
+          "Id": "first_name",
+          "Name": "first_name",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "id",
+          "Name": "id",
+          "Type": "Compiled:Int64",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "last_name",
+          "Name": "last_name",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "username",
+          "Name": "username",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "SHYf",
+      "Properties": [
+        {
+          "Id": "HttpContext",
+          "Name": "HttpContext",
+          "Type": "Compiled:Twenty57.Linx.Plugins.Rest.OpenAPIWebService.OpenAPI.Data.Out.HttpContext, Twenty57.Linx.Plugins.Rest, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "ResponseXXX",
+          "Name": "ResponseXXX",
+          "Type": "Compiled:Object",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  }
+]

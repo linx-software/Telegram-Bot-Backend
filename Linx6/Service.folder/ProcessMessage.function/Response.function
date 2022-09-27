@@ -1,0 +1,11 @@
+{
+  "Properties": [
+    {
+      "Id": "Value",
+      "Type": "Compiled:String",
+      "ValueUsage": "RuntimeRead",
+      "Value": "Sorry, but I don't understand your message\r\n\r\nSend /help to get a list of the commands I understand"
+    }
+  ],
+  "Result": "Compiled:String"
+}

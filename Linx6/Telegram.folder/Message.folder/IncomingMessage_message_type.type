@@ -1,0 +1,26 @@
+{
+  "Id": "RB4o",
+  "Name": "IncomingMessage_message_type",
+  "Properties": [
+    {
+      "Id": "Hvqi",
+      "Name": "first_name",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "a3Ja",
+      "Name": "id",
+      "Type": "Compiled:Int64"
+    },
+    {
+      "Id": "ss17",
+      "Name": "last_name",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "ucYz",
+      "Name": "username",
+      "Type": "Compiled:String"
+    }
+  ]
+}

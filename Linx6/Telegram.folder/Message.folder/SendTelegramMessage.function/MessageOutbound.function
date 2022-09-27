@@ -1,0 +1,43 @@
+{
+  "Properties": [
+    {
+      "Id": "Type",
+      "Type": "Compiled:Linx.ITypeReference",
+      "ValueUsage": "DesignTime",
+      "Value": "Custom:4mNg",
+      "ValueType": "Linx.ValidCustomTypeReference"
+    },
+    {
+      "Id": "Value",
+      "Type": "Custom:4mNg",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "ParsedExpression": "{\"chat_id\":{\"LinxExpression\":\"[PARSED]\"}, \"text\":{\"LinxExpression\":\"[PARSED]\"}, \"parse_mode\":\"HTML\"}",
+        "ExpressionPlaceholders": [
+          {
+            "typePath": [
+              "chat_id"
+            ],
+            "expression": {
+              "Expression": "$.Parameters.ChatID",
+              "CompiledExpression": "={0}",
+              "Type": "Compiled:Int64"
+            }
+          },
+          {
+            "typePath": [
+              "text"
+            ],
+            "expression": {
+              "Expression": "$.Parameters.Message",
+              "CompiledExpression": "={0}",
+              "Type": "Compiled:String"
+            }
+          }
+        ]
+      },
+      "ValueType": "Linx.JsonExpression"
+    }
+  ],
+  "Result": "Custom:4mNg"
+}

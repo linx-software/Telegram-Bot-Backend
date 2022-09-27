@@ -1,0 +1,16 @@
+[
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "5iWW",
+      "Properties": [
+        {
+          "Id": "uuZK",
+          "Name": "Message",
+          "Type": "Custom:cuKX",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  }
+]

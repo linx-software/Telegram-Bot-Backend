@@ -1,0 +1,36 @@
+{
+  "Id": "I6PP",
+  "Name": "IncomingMessage_message",
+  "Properties": [
+    {
+      "Id": "wZK4",
+      "Name": "chat",
+      "Type": "Custom:RB4o"
+    },
+    {
+      "Id": "KdOg",
+      "Name": "date",
+      "Type": "Compiled:Int64"
+    },
+    {
+      "Id": "ILgi",
+      "Name": "from",
+      "Type": "Custom:RB4o"
+    },
+    {
+      "Id": "ojAW",
+      "Name": "message_id",
+      "Type": "Compiled:Int64"
+    },
+    {
+      "Id": "rPkl",
+      "Name": "text",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "sAVg",
+      "Name": "caption",
+      "Type": "Compiled:String"
+    }
+  ]
+}

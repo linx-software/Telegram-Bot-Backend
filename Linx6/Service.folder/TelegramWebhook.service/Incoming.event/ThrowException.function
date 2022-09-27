@@ -1,0 +1,15 @@
+{
+  "Properties": [
+    {
+      "Id": "Message",
+      "Type": "Compiled:String",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "$.Parameters.body",
+        "CompiledExpression": "={0}",
+        "Type": "Generated:0qHw"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    }
+  ]
+}

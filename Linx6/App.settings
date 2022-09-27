@@ -1,0 +1,14 @@
+[
+  {
+    "Id": "2T7P",
+    "Name": "BaseUri",
+    "Type": "Compiled:String",
+    "Value": "http://localhost:8842/"
+  },
+  {
+    "Id": "WdJL",
+    "Name": "TelegramToken",
+    "Type": "Compiled:String",
+    "Secret": true
+  }
+]

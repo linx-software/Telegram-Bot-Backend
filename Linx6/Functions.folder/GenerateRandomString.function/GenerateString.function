@@ -1,0 +1,40 @@
+{
+  "Properties": [
+    {
+      "Id": "ErrorMessage",
+      "Type": "Compiled:String",
+      "ValueUsage": "DesignTime",
+      "Value": null
+    },
+    {
+      "Id": "Function         ​",
+      "Type": "Compiled:String",
+      "ValueUsage": "DesignTime",
+      "Value": "string Function(int length)\r\n{\r\n var chars = \"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789\";\r\nvar stringChars = new char[length];\r\nvar random = new Random();\r\n\r\nfor (int i = 0; i < length; i++)\r\n{\r\n    stringChars[i] = chars[random.Next(chars.Length)];\r\n}\r\n\r\nvar finalString = new String(stringChars);\r\nreturn finalString;\r\n}"
+    },
+    {
+      "Id": "IsCodeValid",
+      "Type": "Compiled:Boolean",
+      "ValueUsage": "DesignTime",
+      "Value": true
+    },
+    {
+      "Id": "length",
+      "Type": "Compiled:Int32",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "$.Parameters.Length",
+        "CompiledExpression": "={0}",
+        "Type": "Compiled:Int64"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    },
+    {
+      "Id": "MethodBody",
+      "Type": "Compiled:String",
+      "ValueUsage": "DesignTime",
+      "Value": "var chars = \"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789\";\r\nvar stringChars = new char[length];\r\nvar random = new Random();\r\n\r\nfor (int i = 0; i < length; i++)\r\n{\r\n    stringChars[i] = chars[random.Next(chars.Length)];\r\n}\r\n\r\nvar finalString = new String(stringChars);\r\nreturn finalString;"
+    }
+  ],
+  "Result": "Compiled:String"
+}

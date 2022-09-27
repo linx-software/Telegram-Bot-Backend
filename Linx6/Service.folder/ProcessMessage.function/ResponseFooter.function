@@ -1,0 +1,11 @@
+{
+  "Properties": [
+    {
+      "Id": "Value",
+      "Type": "Compiled:String",
+      "ValueUsage": "RuntimeRead",
+      "Value": "\r\n\r\nThe RandomString Telegram Bot was built in Linx in an afternoon. Check out Linx at https://linx.software"
+    }
+  ],
+  "Result": "Compiled:String"
+}

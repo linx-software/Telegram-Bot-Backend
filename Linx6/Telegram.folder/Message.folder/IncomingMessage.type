@@ -1,0 +1,16 @@
+{
+  "Id": "cuKX",
+  "Name": "IncomingMessage",
+  "Properties": [
+    {
+      "Id": "TkTj",
+      "Name": "update_id",
+      "Type": "Compiled:Int64"
+    },
+    {
+      "Id": "07nz",
+      "Name": "message",
+      "Type": "Custom:I6PP"
+    }
+  ]
+}
