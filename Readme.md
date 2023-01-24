@@ -9,7 +9,7 @@ A diagram of how Linx, the Telegram API and a Messenger app will interact
 ![](Diagram.png "Architecture Diagram")
 
 ## Prerequisites
-1. Download and install the **Linx Designer https://linx.software/download-linx/ **
+1. Download and install the Linx Designer https://linx.software/download-linx/
 1. Pull the **Linx 6 Solution** folder from this repo
 1. Sign up for a **free Linx Trial Server** https://linx.software/pricing/
 1. Install the **Telegram Messenger** on your phone ([iPhone](https://apps.apple.com/us/app/telegram-messenger/id686449807) or [Android](https://play.google.com/store/apps/details?id=org.telegram.messenger))
